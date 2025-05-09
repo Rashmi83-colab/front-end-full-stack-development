@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.image-container {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
